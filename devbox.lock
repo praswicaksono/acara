@@ -1,15 +1,167 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "nodejs": {
+    "nodejs@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#nodejs",
-      "source": "nixpkg"
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#nodejs_22",
+      "source": "devbox-search",
+      "version": "22.8.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4r8kqr24z88m1xjbb1qf19p1mi6q35lp-nodejs-22.8.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/rqpibvqcpjxx26ls9kmdq1fr5yckss9l-nodejs-22.8.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/4r8kqr24z88m1xjbb1qf19p1mi6q35lp-nodejs-22.8.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1wzl2brm8p6sb5b3wsdnn02m56cq36d4-nodejs-22.8.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/4dwa28gc3w0gr672pcf3j4lfncymdqjf-nodejs-22.8.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/1wzl2brm8p6sb5b3wsdnn02m56cq36d4-nodejs-22.8.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mcdq9d48r8c2j29zgr7i80vnjzwh2lc3-nodejs-22.8.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/16kfmgbsspjg1kpdvf9np5v2h371dh40-nodejs-22.8.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/mcdq9d48r8c2j29zgr7i80vnjzwh2lc3-nodejs-22.8.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xsrv93rg8vi05k9ig6v9mcvcyn01n6n2-nodejs-22.8.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/gp8fkyafy0anm5pgdcq2x3qs2fm8syhl-nodejs-22.8.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/xsrv93rg8vi05k9ig6v9mcvcyn01n6n2-nodejs-22.8.0"
+        }
+      }
     },
-    "php83": {
+    "php83@latest": {
+      "last_modified": "2024-10-02T21:32:52Z",
       "plugin_version": "0.0.3",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#php83",
-      "source": "nixpkg"
+      "resolved": "github:NixOS/nixpkgs/fd698a4ab779fb7fb95425f1b56974ba9c2fa16c#php83",
+      "source": "devbox-search",
+      "version": "8.3.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kbcqkx6jf4fs532bd3kmwn0r1r3ji657-php-with-extensions-8.3.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kbcqkx6jf4fs532bd3kmwn0r1r3ji657-php-with-extensions-8.3.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ki7ic7i2r2vjmdi4ra2v5icvy6y3d9k4-php-with-extensions-8.3.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ki7ic7i2r2vjmdi4ra2v5icvy6y3d9k4-php-with-extensions-8.3.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/74vkb99k3219vby9sw4jpdw3q4275h4k-php-with-extensions-8.3.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/74vkb99k3219vby9sw4jpdw3q4275h4k-php-with-extensions-8.3.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fbk7w0zhpjm3fs3krzmaw507jgclkxvy-php-with-extensions-8.3.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fbk7w0zhpjm3fs3krzmaw507jgclkxvy-php-with-extensions-8.3.12"
+        }
+      }
+    },
+    "symfony-cli@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#symfony-cli",
+      "source": "devbox-search",
+      "version": "5.10.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/686q6yawg64lcc4fxkw8b04bvhai8n0q-symfony-cli-5.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/686q6yawg64lcc4fxkw8b04bvhai8n0q-symfony-cli-5.10.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pfvvd84gmxcn7bh67jdq28mdc1z7xbsw-symfony-cli-5.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pfvvd84gmxcn7bh67jdq28mdc1z7xbsw-symfony-cli-5.10.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s074zh6ix912h8wn0380df13m059s3zf-symfony-cli-5.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s074zh6ix912h8wn0380df13m059s3zf-symfony-cli-5.10.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vs2sgdvw4qm6jh4chy7vlg4ldr0xb5ni-symfony-cli-5.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vs2sgdvw4qm6jh4chy7vlg4ldr0xb5ni-symfony-cli-5.10.2"
+        }
+      }
     }
   }
 }

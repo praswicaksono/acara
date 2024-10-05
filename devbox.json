@@ -1,8 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.0/.schema/devbox.schema.json",
   "packages": [
-    "nodejs",
-    "php83"
+    "nodejs@latest",
+    "php83@latest",
+    "symfony-cli@latest"
   ],
   "shell": {
     "init_hook": [
